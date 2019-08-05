@@ -1,0 +1,21 @@
+.layout{
+  width: 100vw;
+  height: 100vh;
+}
+.header{
+  background-color: #ffffff;
+  border-bottom: 1px solid #ebebeb;
+}
+.sider{
+  background-color: #ffffff;
+}
+.content{
+  background-color: #f2f2f2;
+}
+.footer{
+  background-color: #f2f2f2;
+  text-align: center;
+  font-size: 12px;
+  text-shadow: 1px 1px 1px #ffffff;
+  padding: 15px 0;
+}
