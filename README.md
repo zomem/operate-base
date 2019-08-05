@@ -17,5 +17,5 @@
   
 - 开发表、正式表的权限对比。 开发字段、正式字段的权限、默认值、类型等对比。  
 ![对比图片](./temp/pic.png)  
-开发表我是以`dev_`或`_dev`命名，如果大家用的其他全名区分，  
+开发表我是以`dev_`或`_dev`命名，如`test_dev/dev_test`，如果大家用的其他命名区分，  
 请修改下源码`src/component/setting/table/table.js`  
