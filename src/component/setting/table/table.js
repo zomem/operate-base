@@ -224,7 +224,7 @@ function TableList(){
       }
     ]
 
-    return <Table rowKey={ record => record.table_id } className='sub-table' columns={columns} dataSource={list} pagination={false} />
+    return <Table rowKey={ record => record.name } className='sub-table' columns={columns} dataSource={list} pagination={false} />
   }
 
   const columns = [
