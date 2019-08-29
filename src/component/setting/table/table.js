@@ -224,7 +224,7 @@ function TableList(){
       }
     ]
 
-    return <Table className='sub-table' columns={columns} dataSource={list} pagination={false} />
+    return <Table rowKey={ record => record.table_id } className='sub-table' columns={columns} dataSource={list} pagination={false} />
   }
 
   const columns = [
@@ -246,6 +246,7 @@ function TableList(){
 
   return(
     <Table
+	  rowKey={ record => record.table_id }
       className="components-table-demo-nested table"
       columns={columns}
       expandedRowRender={expandedRowRender}
