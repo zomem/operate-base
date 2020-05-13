@@ -1,7 +1,17 @@
+/*
+ * @Author: your name
+ * @Date: 2020-05-13 10:00:49
+ * @LastEditTime: 2020-05-13 13:38:33
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /operate-base/src/pages/home/home.js
+ */
 import React, { useState, useEffect } from 'react'
-import { Layout, Menu, Breadcrumb, Icon, Row, Col } from 'antd'
+import { Layout, Menu, Breadcrumb, Row, Col } from 'antd'
 
-import TableList from '../../component/setting/table/table'
+import { SettingOutlined, AreaChartOutlined, SendOutlined } from '@ant-design/icons';
+
+import TableList from '../../components/setting/table/table'
 
 import './home.css'
 import '../../App.css'
@@ -48,7 +58,7 @@ function Home(){
               key="sub1"
               title={
                 <span>
-                  <Icon type="area-chart" />
+                  <AreaChartOutlined />
                   <span>栏目</span>
                 </span>
               }
@@ -60,7 +70,7 @@ function Home(){
               key="setting"
               title={
                 <span>
-                  <Icon type="setting" />
+                  <SendOutlined />
                   <span>设置</span>
                 </span>
               }

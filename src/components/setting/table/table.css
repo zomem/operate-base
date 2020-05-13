@@ -1,5 +1,8 @@
 .table{
   background-color: #ffffff;
+  height: calc(100vh - 112px);
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 .sub-table{
   background-color: #ffffff;

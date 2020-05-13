@@ -3,18 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "antd": "^3.20.7",
+    "@ant-design/icons": "^4.1.0",
+    "antd": "^4.2.2",
     "babel-plugin-import": "^1.12.0",
-    "customize-cra": "^0.4.1",
+    "customize-cra": "^0.9.1",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
     "lodash": "^4.17.15",
-    "minapp-fetch": "^0.4.1",
+    "minapp-fetch": "^2.4.0",
     "react": "^16.8.6",
     "react-app-rewired": "^2.1.3",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1"
+    "react-scripts": "^3.4.1"
   },
   "scripts": {
     "start": "react-app-rewired start",
